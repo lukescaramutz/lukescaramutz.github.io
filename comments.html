@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="comments.css">
+    <title>YouTube</title>
+</head>
+<body>
+
+<!-- TOP-BAR SEARCH AREA -->
+
+<nav class="head">
+    <a href="#"><img src="images/hamburger.png" class="hamburger"></a>
+    <a href="#"><img src="images/yt-logo.png" class="yt-logo"></a>
+    <form class="search" method = 'post'>
+        <input class="search-bar" type="text" placeholder="Search">
+        <input class="search-button" type="submit" value="⚲">
+    </form>
+    <ul class="account">
+        <li><a href="#"><img height="26" width="26" class="search-icon" src="images/search-bright.png"></a></li>
+        <li><a href="#"><img height="26" width="26" src="images/camera.png"></a></li>
+        <li><a href="#"><img height="26" width="26" src="images/cube.png"></a></li>
+        <li><a href="#"><img height="26" width="26" src="images/bell.png"></a></li>
+        <li><a href="#"><img height="32" width="32" class="user" src="images/user.jpg"></a></li>
+    </ul>
+</nav>
+
+<div class="main-container">
+
+    <!-- MAIN VIDEO -->
+
+    <iframe class= "video" width="560" height="315" src="https://www.youtube.com/embed/OneUSvcvY80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- BELOW VIDEO INFO -->
+
+    <div class="below-video-info">
+        <div class="under-video">
+            <h1 class="video-name">Terence McKenna - Unknown (Partial) Talk</h1>
+            <p class="video-views">6,686 views<span class="date"> • Jan 8, 2017</span></p>
+            <img class="like-bar" src="images/like-bar.png">
+        </div>
+    
+        <!-- SUBSCRIPTION INFO -->
+    
+        <img class="user-name" height="75" width="180" src="images/uploader.png" alt="pic">
+        <img class="subscribe" height="36" width="105.5" src="images/subscribe.png" alt="subscribe">
+        <p class="discription">I found this tape randomly in my storage. I cannot identify what talk it is from, so it's possible that it comes from a talk that is already available online (but, if so, I have been unable to identify it).</p>
+        <br/>
+        <a class="show-more" href="#">SHOW MORE</a>
+    </div>
+
+    <!-- RECOMMENDED SIDE VIDEOS -->
+
+    <section class="side-videos">
+        <div class="side-top-video">
+            <p>Up next</p>
+            <p class="autoplay">AUTOPLAY</p>
+        </div>
+        <div class="side-autoplay-video">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+        </div>
+        <div class="side-video-list">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+            <img height="100" width="382" src="images/terenceMcKenna.png">
+        </div>
+    </section>
+
+    <!-- TYPE NEW COMMENTS ***** -->
+
+    <section class="comments-section">
+        <div class="new-comment">
+            <div class="sort-container">
+                <p>420 Comments</p>
+                <button>
+                    <img height="25" width="25" src="images/sort.png" alt="sort comments"><p>SORT BY</p>
+                </button>
+            </div>
+            <div class="add-new-comment">
+                <img height="40" width="40" src="images/user.jpg" alt="profile-icon">
+                <form id="comment-form">
+                    <input id="inputed-comment-text" type="text" name="comment" placeholder="Add a public comment..." autocomplete="off">
+                </form>
+            </div>
+            <div class="post-new-comment hide">
+                <form>
+                    <input id="cancle-comment" type="button" value="CANCLE">
+                    <input id="comment-btn" type="button" value="COMMENT">
+                </form>
+            </div>
+        </div>
+
+        <!-- EXISTING COMMENTS ***** -->
+
+        <div class="comment top-comment">
+            <div class="comment-info">
+                <img height="40" width="40" src="images/other-user.jpg" alt="profile-icon">
+                <p class="comment-name">Terence McKenna <a href="#">1 year ago</a></p>
+            </div>
+            <p class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, nostrum. Eos illo autem, asperiores odit in, quod rem eaque ut, deserunt dignissimos nulla temporibus nihil. Sequi commodi soluta tempore. Id! 😂</p>
+            <div class="likes">
+                <a href="#">
+                    <img height="25" width="25" src="images/like.png" alt="like">
+                </a>
+                <p class="comment-likes">1K</p>
+                <a href="#">
+                    <img height="25" width="25" src="images/dislike.png" alt="dislike">
+                </a>
+                <a href="#" class="comment-reply">REPLY</a>
+            </div>
+            <a href="#" class="comment-view-replies"><span class="down-arrow">▼</span>View reply</a>
+        </div>
+
+        <!-- comment 2 -->
+
+        <div class="comment">
+            <div class="comment-info">
+                <img height="40" width="40" src="images/other-user.jpg" alt="profile-icon">
+                <p class="comment-name">Kanye West <a href="#">5 months ago</a></p>
+            </div>
+            <p class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, nostrum. Eos illo autem, aserunt dig. Sequi commodi soluta tempore. Id!</p>
+            <div class="likes">
+                <a href="#">
+                    <img height="25" width="25" src="images/like.png" alt="like">
+                </a>
+                <p class="comment-likes">1</p>
+                <a href="#">
+                    <img height="25" width="25" src="images/dislike.png" alt="dislike">
+                </a>
+                <a href="#" class="comment-reply">REPLY</a>
+            </div>
+        </div>
+
+        <!-- comment 3 -->
+
+        <div class="comment">
+            <div class="comment-info">
+                <img height="40" width="40" src="images/other-user.jpg" alt="profile-icon">
+                <p class="comment-name">THEOTISBEASLEY <a href="#">10 months ago</a></p>
+            </div>
+            <p class="comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, nostrum. Eos illo autem, aspupti.</p>
+            <div class="likes">
+                <a href="#">
+                    <img height="25" width="25" src="images/like.png" alt="like">
+                </a>
+                <p class="comment-likes">1.5K</p>
+                <a href="#">
+                    <img height="25" width="25" src="images/dislike.png" alt="dislike">
+                </a>
+                <a href="#" class="comment-reply">REPLY</a>
+            </div>
+            <a href="#" class="comment-view-replies"><span class="down-arrow">▼</span>View 555 replies</a>
+        </div>
+        
+    </section>
+</div>
+<script src="comments.js"></script>
+</body>
+</html>
